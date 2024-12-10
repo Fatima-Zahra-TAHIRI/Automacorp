@@ -60,7 +60,7 @@ fun AutomacorpTopAppBar(
             // Open GitHub page
             val githubIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com")
+                Uri.parse("https://github.com/Fatima-Zahra-TAHIRI/Automacorp/tree/master")
             )
             context.startActivity(githubIntent)
         }) {
